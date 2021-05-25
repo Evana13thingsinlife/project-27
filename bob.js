@@ -1,5 +1,9 @@
 class Bob{
     constructor(){
+         class Bob{ 
+           constructor(x,y)
+          this.body=Bodies.circle(x,y,40,options); 
+             this.radius = 40; 
         var options={
             isStatic:true, 
             restitution:0.3,
@@ -14,7 +18,7 @@ class Bob{
     display (){
         var pos= this.body.position;
         fill("pink");
-        ellipse(0,0,this.radius);
+       ellipse(pos.x,pos.y,this.radius);
 
     }
 }
