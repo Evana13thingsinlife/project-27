@@ -24,7 +24,13 @@ function setup() {
 	bob5=new Bob(500,350,50,50);
 	roof=new Roof(400,190,250,15);
 
-
+ add const  = Matter.Constraint; 
+	bob1=new Bob(300,350);
+	bob2=new Bob(350,350); 
+	bob3=new Bob(400,350); 
+	bob4=new Bob(450,350); 
+	bob5=new Bob(500,350);
+	roof=new Roof(400,190,300,30);
 
 	Engine.run(engine);
   
