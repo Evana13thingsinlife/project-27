@@ -1,7 +1,9 @@
 class Roof{
-    constructor(){
+   
+
+    constructor(x,y,width,height){
         var options={
-            isStatic:false, 
+            isStatic:true, 
             
         }
         this.body=Bodies.rectangle(x,y,width,height,options);
